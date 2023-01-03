@@ -22,11 +22,9 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 
 public class Anggota {
-
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long anggotaId;
     private String nama;
     private String alamat;
-
 }
